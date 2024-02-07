@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T05:40:02Z" name="Surefire suite" finished-at="2024-02-06T05:40:35Z" duration-ms="32434">
+    <groups>
+      <group name="Title">
+        <method signature="TestSelenium.getTitle()[pri:1, instance:roician.testng.TestSelenium@679b62af]" name="getTitle" class="roician.testng.TestSelenium"/>
+      </group> <!-- Title -->
+      <group name="Verification">
+        <method signature="TestSelenium.gmailDisplay()[pri:2, instance:roician.testng.TestSelenium@679b62af]" name="gmailDisplay" class="roician.testng.TestSelenium"/>
+      </group> <!-- Verification -->
+    </groups>
+    <test started-at="2024-02-06T05:40:02Z" name="Surefire test" finished-at="2024-02-06T05:40:35Z" duration-ms="32434">
+      <class name="roician.testng.TestSeleniumParameterized">
+        <test-method is-config="true" signature="before()[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:02Z" name="before" finished-at="2024-02-06T00:40:06Z" duration-ms="3958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="display(java.lang.String)[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:06Z" name="display" data-provider="getdata" finished-at="2024-02-06T00:40:07Z" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roicians]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:07Z" name="closebrowser" finished-at="2024-02-06T00:40:07Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="before()[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:07Z" name="before" finished-at="2024-02-06T00:40:10Z" duration-ms="3435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="display(java.lang.String)[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:10Z" name="display" data-provider="getdata" finished-at="2024-02-06T00:40:10Z" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roician Automation testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:10Z" name="closebrowser" finished-at="2024-02-06T00:40:10Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="before()[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:10Z" name="before" finished-at="2024-02-06T00:40:14Z" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="display(java.lang.String)[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:14Z" name="display" data-provider="getdata" finished-at="2024-02-06T00:40:14Z" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RoicianQA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:14Z" name="closebrowser" finished-at="2024-02-06T00:40:14Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- roician.testng.TestSeleniumParameterized -->
+      <class name="roician.testng.TestSelenium">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:roician.testng.TestSelenium@679b62af]" started-at="2024-02-06T00:40:02Z" name="driverSetUp" finished-at="2024-02-06T00:40:02Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:roician.testng.TestSeleniumParameterized@5cdd8682]" started-at="2024-02-06T00:40:02Z" name="driverSetUp" finished-at="2024-02-06T00:40:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="before()[pri:0, instance:roician.testng.TestSelenium@679b62af]" started-at="2024-02-06T00:40:28Z" name="before" finished-at="2024-02-06T00:40:31Z" duration-ms="3461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="getTitle()[pri:1, instance:roician.testng.TestSelenium@679b62af]" started-at="2024-02-06T00:40:31Z" name="getTitle" finished-at="2024-02-06T00:40:31Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:roician.testng.TestSelenium@679b62af]" started-at="2024-02-06T00:40:31Z" name="closebrowser" finished-at="2024-02-06T00:40:31Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="before()[pri:0, instance:roician.testng.TestSelenium@679b62af]" started-at="2024-02-06T00:40:31Z" name="before" finished-at="2024-02-06T00:40:35Z" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="gmailDisplay()[pri:2, instance:roician.testng.TestSelenium@679b62af]" started-at="2024-02-06T00:40:35Z" name="gmailDisplay" finished-at="2024-02-06T00:40:35Z" depends-on-methods="roician.testng.TestSelenium.getTitle" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailDisplay -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:roician.testng.TestSelenium@679b62af]" started-at="2024-02-06T00:40:35Z" name="closebrowser" finished-at="2024-02-06T00:40:35Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- roician.testng.TestSelenium -->
+      <class name="roician.testng.Testn">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:roician.testng.Testn@d6da883]" started-at="2024-02-06T00:40:14Z" name="openbrowser" finished-at="2024-02-06T00:40:22Z" duration-ms="8292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="validcase()[pri:1, instance:roician.testng.Testn@d6da883]" started-at="2024-02-06T00:40:22Z" name="validcase" finished-at="2024-02-06T00:40:28Z" duration-ms="5475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcase -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:roician.testng.Testn@d6da883]" started-at="2024-02-06T00:40:28Z" name="closebrowser" finished-at="2024-02-06T00:40:28Z" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- roician.testng.Testn -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Roician">
+	<test name="TestN" allow-return-values="true">
+		<classes>
+			<class name="roician.testng.TestSeleniumParameterized">
+			</class>
+		</classes>
+	</test>
+	<test name="Smoke" allow-return-values="true">
+		<classes>
+			<class name="roician.testng.TestSelenium">
+			</class>
+		</classes>
+	</test>
+</suite>
